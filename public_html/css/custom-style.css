@@ -4,19 +4,18 @@ div{
     border-color: blueviolet;
     padding: 30px;
 }
-    /*my div style*/
+/*my div style*/
 
 .row{
     border-color: blueviolet;
     border-radius: 100px;
 }
-      /*my row style*/
-      
+/*my row style*/
+
 body {
-    background-color: white;
     background-image: url('http://guysfromandromeda.com/wp-content/uploads/2012/07/Galaxy-background.jpg');
 }
-/*background color*/
+/*background image*/
 .list-group-item {
     border: 0;
     margin-top: 50px;
@@ -57,7 +56,7 @@ h3{
     font-family: impact;
     color: cyan;
 }
-/*myy h3 style*/
+/*my h3 style*/
 
 .jumbotron{
     border-color: blueviolet;
