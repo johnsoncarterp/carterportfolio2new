@@ -9,15 +9,21 @@ $("document").ready(function() {
     $(".practice").css("background-color", "cyan");
     $('p:last').css({"background-color": "green", "color": "white"});
     $('a').css({"background-color": "black", "color": "white"});
+    //just some color
     $("#carter").bind('click', alertButtonClick);
+    //Listener for a click on the element with the id carter. When clicked, calls the function alertbuttonclick
     $("h1").bind('click', mouseClick);
     $("h1").bind('mouseover', mouseOverMe).bind('mouseout', mouseOutMe);
+    //listener for mouse
     $("#cj").bind('click', replaceWText);
+    //replaces text
     $("#apple").bind('click', removeAPara);
     $("#cool").bind('click', addAPara);
+    //adds and removes text
     $("#hideLogo").bind('click', hideTheLogo);
     $("#showLogo").bind('click', showTheLogo);
-    //my IDs and 
+    //some annimation
+    //my IDs and event listeners
     $("#superHumans").accordion({header: "h4"});
     //my accordian
 });
