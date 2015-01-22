@@ -63,3 +63,7 @@ h3{
     border-radius: 100px;
 }
 /*my jumbotron style*/
+
+img:hover {
+    background-color: orangered;
+}
